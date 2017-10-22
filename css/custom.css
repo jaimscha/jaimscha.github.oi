@@ -1,0 +1,170 @@
+/*------------------------------
+    CSS     Itunes      22/10
+    Schatteman Jaimy
+    Donkergrijs: #414034
+    Gebroken Wit: #1c1c1b
+    beige: #d6c297
+    Licht blauw: #DDE9F8
+-------------------------------*/
+
+
+.container{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24pt;
+    line-height: 1em;
+    min-width: 320px;
+    padding:  0px 0px 0px 0px;
+}
+.kleine{
+   font-size: 0.8em; 
+    
+}
+.middel{
+    font-size: 1.2em;
+
+}
+.grootte{
+    font-size: 2.1em;
+    line-height: 0.8em;
+    margin-bottom:  0rem;
+}
+div.lijst{
+    padding: 0% 10% 0% 10%;
+}
+div.lijst > div.row > h2{
+    font-size: 18pt;
+}
+h3.kleine{
+    margin-bottom:  0rem;
+}
+
+
+.marginbottom{
+    margin-bottom: 10%;
+    padding-top:
+}
+.marginTop{
+
+}
+
+.padding{
+    padding: 5% 10% 0% 10%;
+}
+.paddingBot{
+    padding: 0% 0% 1% 0%;
+}
+.paddingTopBot{
+    padding: 1.5% 0% 3% 0%;
+}
+.paddingRight{
+    padding: 0% 10% 0% 0%;
+}
+
+
+.marginLeftRight{
+    margin: 0% 7.5% 0% 7.5%;
+}
+.marginLeft{
+    margin: 0% 0% 0% 7.5%;
+}
+
+/* Verwijderd ongewenste linebreaks */
+.breakline{
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+
+}
+
+
+.borderBottom{
+    border-bottom: 5px solid #ECECEC;
+}
+.borderBotDonker{
+    border-bottom: solid 3px #414034;
+}
+.borderTop{
+    border-top: solid 5px #ECECEC;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.donkereAchtergrond{
+    background-color: #414034;
+    color: #ECECEC;
+}
+.gebrokenWitAchtergrond{
+    background-color: #ECECEC;
+    color: #414034;
+}
+h3.beigeTekst, p.beigeTekst{
+    color: #d6c297;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #font{
+        font-size: 3.05em;
+    }
+    div.lijst > div.row > h2{
+        font-size: 24pt;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  
+    #font{
+        font-size: 2.0em;
+    }
+    div.lijst > div.row > h2{
+        font-size: 24pt;
+    }
+    div.lijst{
+        padding: 0% 5% 0% 5%;
+    }
+    .marginLeft{
+        margin: 0% 0% 0% 3%;
+    }
+    .padding{
+        padding: 4% 0% 0% 2%;
+    }
+    .borderBottom{
+        border-right: 5px solid #ECECEC;
+        border-bottom: none;
+    }
+    h2.middel{
+        padding-bottom: 8%;
+    }
+    .paddingTopBot{
+        padding: 0.5% 0% 1% 0%;
+    }
+    
+    .paddingRight{
+        padding: 0% 5% 0% 0%;
+    }
+    
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #font{
+        font-size: 2.7em;
+    }
+    div.lijst > div.row > h2{
+        font-size: 30pt;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    #font{
+        font-size: 3.35em;
+    }
+    div.lijst > div.row > h2{
+        font-size: 30pt;
+    }
+   
+}
